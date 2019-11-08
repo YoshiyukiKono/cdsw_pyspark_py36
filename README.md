@@ -44,5 +44,5 @@ spark.yarn.dist.archives=py36.zip#PY36
 
 Project Menu -> Settings -> Engine -> Environment Variables
 
-- Name:PYSPARK_PYTHON
-- Value:./PY36/py36/bin/python
+- Name:`PYSPARK_PYTHON`
+- Value:`./PY36/py36/bin/python`
