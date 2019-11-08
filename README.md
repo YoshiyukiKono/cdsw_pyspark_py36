@@ -20,7 +20,7 @@ Modify the default files to get started with your own project.
 
 # Getting Started with Python3.6 for Spark
 
-## CDSW Preparation
+## CDSW preparations
 
 ### Workbench
 
