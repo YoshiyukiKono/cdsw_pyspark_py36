@@ -46,3 +46,7 @@ Project Menu -> Settings -> Engine -> Environment Variables
 
 - Name:`PYSPARK_PYTHON`
 - Value:`./PY36/py36/bin/python`
+
+## File
+
+* `pi.ipynb` -- The simplest PySpark example script for Jupyter notebook with Python3.
