@@ -25,7 +25,7 @@ Modify the default files to get started with your own project.
 ### Workbench
 
 ```
-$ conda create -n py36 python=3.6 numpy pip
+$ conda create -n py36 -y python=3.6 numpy pip
 $ source activate py36
 (py36)$ cp -r ~/.local/lib ~/.conda/envs/py36/
 (py36)$ source deactivate
