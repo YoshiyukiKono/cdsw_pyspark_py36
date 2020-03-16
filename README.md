@@ -22,6 +22,15 @@ Modify the default files to get started with your own project.
 
 ## CDSW preparations
 
+### Project Settings
+
+Project Menu -> Settings -> Engine -> Environment Variables
+
+`Add` the variable below and `Save Environment`
+
+- Name:`PYSPARK_PYTHON`
+- Value:`./PY36/py36/bin/python`
+
 ### Workbench
 
 ```
@@ -36,19 +45,13 @@ $ zip -r ../../py36.zip py36
 ```
 
 ### spark-defaults.conf
+The spark-defaults.conf included in thie repository already had the following lines.
 ```
 spark.yarn.appMasterEnv.PYSPARK_PYTHON=./PY36/py36/bin/python
 spark.yarn.dist.archives=py36.zip#PY36
 ```
 
-### Project Settings
 
-Project Menu -> Settings -> Engine -> Environment Variables
-
-`Add` the variable below and `Save Environment`
-
-- Name:`PYSPARK_PYTHON`
-- Value:`./PY36/py36/bin/python`
 
 ## File
 
