@@ -45,7 +45,7 @@ $ zip -r ../../py36.zip py36
 ```
 
 ### spark-defaults.conf
-The spark-defaults.conf included in thie repository already had the following lines.
+The `spark-defaults.conf` included in this repository already has the following lines.
 ```
 spark.yarn.appMasterEnv.PYSPARK_PYTHON=./PY36/py36/bin/python
 spark.yarn.dist.archives=py36.zip#PY36
